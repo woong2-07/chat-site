@@ -341,7 +341,7 @@ export default function ChatPage() {
                   if (e.key === "Enter") handleSendMessage();
                 }}
                 placeholder="메시지를 입력하세요... (텍스트만 가능)"
-                className="flex-1 border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-indigo-500"
+                className="flex-1 border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-indigo-500 text-black"
               />
               <button
                 onClick={handleSendMessage}
@@ -375,7 +375,7 @@ export default function ChatPage() {
                     if (e.key === "Enter") handleCreateRoom();
                   }}
                   placeholder="방 이름을 입력하세요"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-indigo-500"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-indigo-500 text-black"
                 />
               </div>
 
@@ -435,7 +435,7 @@ export default function ChatPage() {
                   if (e.key === "Enter") handleVerifyPrivateRoom();
                 }}
                 placeholder="6자리 숫자 비밀번호"
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-indigo-500"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-indigo-500 text-black"
               />
             </div>
 
