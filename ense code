@@ -1,0 +1,7 @@
+[33m23c6759[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m fix input className error
+[33ma2cab7f[m text fix
+[33mcd368cf[m add adsense code
+[33m5a50318[m Fix: Force input text color to black with inline styles
+[33mc905900[m Change gray text to black
+[33m3b72234[m Remove cron job for free plan
+[33m9cf3e2a[m Initial commit
