@@ -162,7 +162,7 @@ export default function ChatPage() {
                 }`}
               >
                 <div className="font-semibold text-gray-800">{room.name}</div>
-                <div className="text-xs text-gray-500">
+                <div className="text-xs 텍스트-gray-500">
                   생성: {new Date(room.created_at).toLocaleString()}
                 </div>
               </div>
@@ -187,7 +187,7 @@ export default function ChatPage() {
             <br />
             • 욕설 금지
             <br />
-            • 존중하는 마음으로 소통해주세요
+            • 불법 행위, 개인정보 유출 · 도박, 부적절한 사진·영상 전송은 엄격히 금지되며 위반 시 법적 처벌을 받을 수 있습니다
           </div>
         </div>
       </div>
@@ -237,7 +237,7 @@ export default function ChatPage() {
             <br />
             • 욕설 금지
             <br />
-            • 존중하는 마음으로 소통해주세요
+            • 불법 행위, 개인정보 유출 · 도박, 부적절한 사진·영상 전송은 엄격히 금지되며 위반 시 법적 처벌을 받을 수 있습니다
           </div>
         </div>
       </div>
